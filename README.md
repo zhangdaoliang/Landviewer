@@ -12,12 +12,12 @@ The rapid development of spatially resolved transcriptomics (SRT) technologies h
 ### Create and activate Python environment
 It is recommended to use a Python version  `3.9`. We recommend using Anaconda, and then you can create a new environment.
 ```
-conda create -n Falcon python=3.9
-conda activate Falcon
+conda create -n Landviewer python=3.9
+conda activate Landviewer
 ```
 
 ### Install PyTorch
-We developed Falcon in a CUDA 11.8 environment.
+We developed Landviewer in a CUDA 11.8 environment.
 ```
 pip install torch==2.1.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 ```
@@ -27,7 +27,7 @@ pip install torch==2.1.0+cu118 --extra-index-url https://download.pytorch.org/wh
 ```
 git clone https://github.com/zhangdaoliang/Landviewer.git
 
-cd Falcon
+cd Landviewer
 
 python setup.py build
 
