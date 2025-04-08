@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 import scanpy as sc
 from .layers import GraphConvolution
-from stMGC.util import set_seed
+
 
 
 class Attention(nn.Module):
