@@ -22,11 +22,8 @@ We developed Falcon in a CUDA 11.8 environment.
 pip install torch==2.1.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 ```
 
-### Install other requirements
 ```
-pip install -r requirements.txt
-```
-### Install Falocn
+### Install Landviewer
 ```
 git clone https://github.com/zhangdaoliang/Landviewer.git
 
